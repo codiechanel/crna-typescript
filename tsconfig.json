@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext", "es2018", "es2015", "es7", "es5", "es6"],
+    "moduleResolution": "node",
+    "allowJs": false,
+    "jsx": "react",
+    "skipLibCheck": true,
+//    "typeRoots": ["../node_modules/@types"],
+    //    "types": [
+    //      "core-js"
+    //    ]
+//    "types": []
+  },
+  "compileOnSave": false,
+  "include": ["src/**/*"]
+  //  "files": ["App.tsx","./src/Home.tsx"]
+
+  //  "exclude": ["*.d.ts"]
+}
